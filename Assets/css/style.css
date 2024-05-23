@@ -1,0 +1,70 @@
+/* Custom styles for the header */
+.header {
+    background-color: darkblue !important; /* Dark blue background */
+    color: white !important;              /* White text */
+    margin-bottom: 20px;                  /* Space below the header */
+}
+
+
+.search-city h4 {
+    margin-bottom: 15px;
+}
+
+
+.btn-custom {
+    background-color: #6c7ae0; /* Light blue background */
+    color: white;              /* White text */
+    border: none;              /* No border */
+    padding: 10px 20px;        /* Adjust padding */
+    font-size: 18px;           /* Increase font size */
+    border-radius: 10px;        /* Rounded corners */
+    margin-bottom: 20px;
+}
+
+.btn-custom:hover {
+    background-color: #5a67d8; /* Darker blue on hover */
+    
+}
+
+/* Styles for the current weather section */
+.current-weather {
+    margin-bottom: 20px;       /* Space below the current weather section */
+}
+
+.current-weather h4 {
+    margin-bottom: 10px;
+}
+
+/* Styles for the forecast section */
+.forecast h4 {
+    margin-bottom: 15px;
+}
+
+/* Custom styles for forecast cards */
+.forecast .col-md-2 {
+    background-color: #343a40; /* Dark background */
+    color: white;              /* White text */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;        /* Rounded corners */
+    text-align: center;        /* Centered text */
+}
+
+
+.list-group-item-custom {
+    background-color: #e0e0e0; /* Light grey background */
+    color: #333;               /* Dark text */
+    border: 1px solid #ccc;    /* Light border */
+    margin-bottom: 5px;        /* Spacing between buttons */
+    border-radius: 5px;        /* Rounded corners */
+}
+
+.list-group-item-custom:hover {
+    background-color: #ccc;    /* Darker grey on hover */
+    color: #000;               /* Darker text on hover */
+}
+
+.form-control {
+    margin-bottom: 10px;
+    border-radius: 5px;        /* Rounded corners */
+}
